@@ -1,4 +1,4 @@
-name: Sculpting Action Publish
+name: Gatsby Gitalk Demo Action Publish
 
 on:
   push:
