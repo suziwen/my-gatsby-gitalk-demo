@@ -1,3 +1,4 @@
+const gitalkOpt = require('./gitalk.json');
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -23,6 +24,12 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-plugin-gitalk",
+      options: {
+        config: gitalkOpt,
+      },
     },
   ],
 };
