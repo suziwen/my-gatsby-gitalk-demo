@@ -5,6 +5,11 @@
   Gatsby Gitalk minimal demo
 </h1>
 
+
+## Demo
+
+[Demo](https://suziwen.github.io/my-gatsby-gitalk-demo/)
+
 ## 🚀 Quick start
 
 1.  **Build**
