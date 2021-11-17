@@ -1,9 +1,10 @@
 const gitalkOpt = require('./gitalk.json');
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://suziwen.github.io/my-gatsby-gitalk-demo/",
     title: "My Gatsby Gitalk Demo",
   },
+  pathPrefix: '/my-gatsby-gitalk-demo',
   plugins: [
     "gatsby-plugin-image",
     "gatsby-transformer-remark",
